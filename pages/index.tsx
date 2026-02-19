@@ -1,9 +1,5 @@
-import Navbar from "../components/Navbar"
-
 export default function Home() {
   return (
-    <>
-      <Navbar />
       <main className="min-h-screen bg-gray-950 text-white">
         {/* HERO SECTION */}
         <section className="flex flex-col items-center justify-center text-center py-32 px-6">
@@ -57,6 +53,5 @@ export default function Home() {
           </p>
         </section>
       </main>
-    </>
   )
 }

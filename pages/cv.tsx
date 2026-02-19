@@ -1,9 +1,6 @@
-import Navbar from "../components/Navbar"
-
 export default function CV() {
   return (
-    <>
-      <Navbar />
+
       <main className="min-h-screen bg-gray-950 text-white py-16 px-6 max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6 text-center">CV - Elouan Jeanson</h1>
 
@@ -42,6 +39,5 @@ export default function CV() {
           </ul>
         </section>
       </main>
-    </>
   )
 }
