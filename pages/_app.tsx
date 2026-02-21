@@ -25,9 +25,13 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://elouanjeanson.fr" />
         <meta property="og:image" content="https://elouanjeanson.fr/logo_portfolio.png" />
+        <meta property="og:site_name" content="Elouan Jeanson" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Elouan Jeanson – Portfolio" />
+        <meta name="twitter:description" content="Découvrez mes projets et mon CV." />
+        <meta name="twitter:image" content="https://elouanjeanson.fr/logo_portfolio.png" />
 
         <link rel="icon" href="/favicon.ico" />
 
@@ -40,9 +44,10 @@ export default function App({ Component, pageProps }: AppProps) {
               name: "Elouan Jeanson",
               url: "https://elouanjeanson.fr",
               jobTitle: "Développeur / Analyste",
+              image: "https://elouanjeanson.fr/logo_portfolio.png",
+              description: "Développeur et analyste spécialisé en applications web.",
               sameAs: [
-                "https://www.linkedin.com/in/tonprofil",
-                "https://github.com/tonprofil"
+                "https://www.linkedin.com/in/elouan-jeanson"
               ]
             }),
           }}

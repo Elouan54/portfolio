@@ -11,6 +11,7 @@ export default function Home() {
           <a
             href="https://github.com/Elouan54/portfolio"
             target="_blank"
+            rel="noopener noreferrer"
             className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
             Voir le code sur GitHub
@@ -47,7 +48,7 @@ export default function Home() {
             </a>
           </p>
           <p className="mb-4">
-            <a href="https://www.linkedin.com/in/elouan-jeanson" target="_blank" className="text-blue-400 underline">
+            <a href="https://www.linkedin.com/in/elouan-jeanson" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
               LinkedIn
             </a>
           </p>
