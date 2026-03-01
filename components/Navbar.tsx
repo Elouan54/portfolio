@@ -7,6 +7,7 @@ export default function Navbar() {
           <a href="/" className="hover:text-blue-400">Accueil</a>
           <a href="/cv" className="hover:text-blue-400">CV</a>
           <a href="/#applications" className="hover:text-blue-400">Applications</a>
+          <a href="/#contact" className="hover:text-blue-400">Contact</a>
         </div>
       </div>
     </nav>
