@@ -56,7 +56,23 @@ export default function Home() {
 
               <div className="bg-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
                 <h4 className="text-xl font-semibold mb-2">Symfony + VueJS</h4>
-                <p className="text-gray-400">En construction</p>
+                <p className="text-gray-400">Application de gestion de site vitrine pour restaurateurs (en construction)</p>
+                <a
+                  href="https://github.com/Elouan54/restaurateur-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 px-4 py-2 bg-blue-500 text-white rounded mb-2 hover:bg-blue-600 inline-block"
+                >
+                  Voir le code Frontend sur GitHub
+                </a>
+                <a
+                  href="https://github.com/Elouan54/resto-saas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 px-4 py-2 bg-blue-500 text-white rounded mb-2 hover:bg-blue-600 inline-block"
+                >
+                  Voir le code Backend sur GitHub
+                </a>
               </div>
 
               <div className="bg-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
