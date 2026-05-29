@@ -77,7 +77,23 @@ export default function Home() {
 
               <div className="bg-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
                 <h4 className="text-xl font-semibold mb-2">Flutter</h4>
-                <p className="text-gray-400">En construction</p>
+                <p className="text-gray-400">Démineur</p>
+                <a
+                  href="https://github.com/Elouan54/demineur"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 px-4 py-2 bg-blue-500 text-white rounded mb-2 hover:bg-blue-600 inline-block"
+                >
+                  Voir le code sur GitHub
+                </a>
+                <a
+                  href="https://demineur.elouanjeanson.fr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 px-4 py-2 bg-green-500 text-white rounded mb-2 hover:bg-green-600 inline-block"
+                >
+                  Ouvrir l'application
+                </a>
               </div>
 
             </div>
